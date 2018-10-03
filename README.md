@@ -51,7 +51,7 @@ Sample spam email:
   <li><b>Normalizing Numbers:</b> All numbers are replaced with the text “number”.</li>
   <li><b>Normalizing Dollars:</b> All dollar signs ($) are replaced with the text “dollar”.</li>
   <li><b>Word Stemming:</b> Words are reduced to their stemmed form. For example, “discount”, “discounts”, “discounted” and “discounting” are all replaced with “discount”. Sometimes, the Stemmer actually strips off additional characters from the end, so “include”, “includes”, “included”, and “including” are all replaced with “includ”. (Porter Stemmer: Algorithm is taken from Porter, 1980, An algorithm for suffix stripping)</li>
-  <li>__Removal of non-words:__ Non-words and punctuation have been removed. All white spaces (tabs, newlines, spaces) have all been trimmed to a single space character.</li>
+  <li><b>Removal of non-words:</b> Non-words and punctuation have been removed. All white spaces (tabs, newlines, spaces) have all been trimmed to a single space character.</li>
 </ul>
 <p>Applying this preprocessing to the above email, we will be leftover with the following:</p><br/>
 <p> Pre processed email:
