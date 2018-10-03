@@ -73,11 +73,11 @@ while true
 	x = emailFeatures(word_indices);
 	p = svmPredict(model, x);
 
-	result = ""
+	result = "";
 	if p == 1,
-		result = "SPAM EMAIL"
+		result = "SPAM EMAIL";
 	else
-		result = "NON-SPAM EMAIL"
+		result = "NON-SPAM EMAIL";
 	end
 
 	fprintf('\nProcessed %s\n\nSpam Classification: %s\n', filename, result);
